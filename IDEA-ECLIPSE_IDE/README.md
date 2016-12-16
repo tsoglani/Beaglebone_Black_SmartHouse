@@ -1,6 +1,6 @@
 # Beaglebone_SmartHouseServer
 
-
+[beaglebone debian image](https://debian.beagleboard.org/images/bone-debian-8.4-lxqt-4gb-armhf-2016-05-13-4gb.img.xz) .
 
 Inside this folder there is a [Idea ide](https://www.jetbrains.com/idea/download) java application.
 
