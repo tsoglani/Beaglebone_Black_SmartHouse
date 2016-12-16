@@ -42,7 +42,7 @@ public class SH {
     // the third will be 2 the fourth will be 3 ...    (it is very important)
 
 
-    public static String contentPath="/home/debian/Desktop/resources";
+    public static String contentPath="/home/debian/Desktop/resources/";
     ///**
     // these are the commannds that each device can receive and react,
     // so every outputPowerCommand must be unique in every device contected in local network.
