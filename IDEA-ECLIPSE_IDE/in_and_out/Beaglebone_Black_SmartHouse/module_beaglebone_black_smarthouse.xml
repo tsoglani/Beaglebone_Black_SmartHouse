@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_beaglebone_black_smarthouse" default="compile.module.beaglebone_black_smarthouse">
+  <dirname property="module.beaglebone_black_smarthouse.basedir" file="${ant.file.module_beaglebone_black_smarthouse}"/>
+  
+  <property name="module.jdk.home.beaglebone_black_smarthouse" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.beaglebone_black_smarthouse" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.beaglebone_black_smarthouse" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.beaglebone_black_smarthouse" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="beaglebone_black_smarthouse.output.dir" value="${module.beaglebone_black_smarthouse.basedir}/out/production/Beaglebone_Black_SmartHouse"/>
+  <property name="beaglebone_black_smarthouse.testoutput.dir" value="${module.beaglebone_black_smarthouse.basedir}/out/test/Beaglebone_Black_SmartHouse"/>
+  
+  <path id="beaglebone_black_smarthouse.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="beaglebone_black_smarthouse.module.production.classpath">
+    <path refid="${module.jdk.classpath.beaglebone_black_smarthouse}"/>
+    <path refid="library.libs1.classpath"/>
+    <path refid="library.libs.classpath"/>
+    <path refid="library.lib.classpath"/>
+  </path>
+  
+  <path id="beaglebone_black_smarthouse.runtime.production.module.classpath">
+    <pathelement location="${beaglebone_black_smarthouse.output.dir}"/>
+    <path refid="library.libs1.classpath"/>
+    <path refid="library.libs.classpath"/>
+    <path refid="library.lib.classpath"/>
+  </path>
+  
+  <path id="beaglebone_black_smarthouse.module.classpath">
+    <path refid="${module.jdk.classpath.beaglebone_black_smarthouse}"/>
+    <pathelement location="${beaglebone_black_smarthouse.output.dir}"/>
+    <path refid="library.libs1.classpath"/>
+    <path refid="library.libs.classpath"/>
+    <path refid="library.lib.classpath"/>
+  </path>
+  
+  <path id="beaglebone_black_smarthouse.runtime.module.classpath">
+    <pathelement location="${beaglebone_black_smarthouse.testoutput.dir}"/>
+    <pathelement location="${beaglebone_black_smarthouse.output.dir}"/>
+    <path refid="library.libs1.classpath"/>
+    <path refid="library.libs.classpath"/>
+    <path refid="library.lib.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.beaglebone_black_smarthouse">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.beaglebone_black_smarthouse">
+    <patternset refid="excluded.from.module.beaglebone_black_smarthouse"/>
+  </patternset>
+  
+  <path id="beaglebone_black_smarthouse.module.sourcepath">
+    <dirset dir="${module.beaglebone_black_smarthouse.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.beaglebone_black_smarthouse" depends="compile.module.beaglebone_black_smarthouse.production,compile.module.beaglebone_black_smarthouse.tests" description="Compile module Beaglebone_Black_SmartHouse"/>
+  
+  <target name="compile.module.beaglebone_black_smarthouse.production" depends="register.custom.compilers" description="Compile module Beaglebone_Black_SmartHouse; production classes">
+    <mkdir dir="${beaglebone_black_smarthouse.output.dir}"/>
+    <javac2 destdir="${beaglebone_black_smarthouse.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.beaglebone_black_smarthouse}/javac">
+      <compilerarg line="${compiler.args.beaglebone_black_smarthouse}"/>
+      <bootclasspath refid="beaglebone_black_smarthouse.module.bootclasspath"/>
+      <classpath refid="beaglebone_black_smarthouse.module.production.classpath"/>
+      <src refid="beaglebone_black_smarthouse.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.beaglebone_black_smarthouse"/>
+    </javac2>
+    
+    <copy todir="${beaglebone_black_smarthouse.output.dir}">
+      <fileset dir="${module.beaglebone_black_smarthouse.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.beaglebone_black_smarthouse.tests" depends="register.custom.compilers,compile.module.beaglebone_black_smarthouse.production" description="compile module Beaglebone_Black_SmartHouse; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.beaglebone_black_smarthouse" description="cleanup module">
+    <delete dir="${beaglebone_black_smarthouse.output.dir}"/>
+    <delete dir="${beaglebone_black_smarthouse.testoutput.dir}"/>
+  </target>
+</project>

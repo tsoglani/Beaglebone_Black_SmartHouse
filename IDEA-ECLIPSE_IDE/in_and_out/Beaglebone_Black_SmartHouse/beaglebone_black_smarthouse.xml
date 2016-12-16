@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="beaglebone_black_smarthouse" default="all">
+  
+  
+  <property file="beaglebone_black_smarthouse.properties"/>
+  <!-- Uncomment the following property if no tests compilation is needed -->
+  <!-- 
+  <property name="skip.tests" value="true"/>
+   -->
+  
+  <!-- Compiler options -->
+  
+  <property name="compiler.debug" value="on"/>
+  <property name="compiler.generate.no.warnings" value="off"/>
+  <property name="compiler.args" value=""/>
+  <property name="compiler.max.memory" value="700m"/>
+  <patternset id="ignored.files">
+    <exclude name="**/*.hprof/**"/>
+    <exclude name="**/*.pyc/**"/>
+    <exclude name="**/*.pyo/**"/>
+    <exclude name="**/*.rbc/**"/>
+    <exclude name="**/*.yarb/**"/>
+    <exclude name="**/*~/**"/>
+    <exclude name="**/.DS_Store/**"/>
+    <exclude name="**/.git/**"/>
+    <exclude name="**/.hg/**"/>
+    <exclude name="**/.svn/**"/>
+    <exclude name="**/CVS/**"/>
+    <exclude name="**/__pycache__/**"/>
+    <exclude name="**/_svn/**"/>
+    <exclude name="**/vssver.scc/**"/>
+    <exclude name="**/vssver2.scc/**"/>
+  </patternset>
+  <patternset id="library.patterns">
+    <include name="*.war"/>
+    <include name="*.swc"/>
+    <include name="*.zip"/>
+    <include name="*.ear"/>
+    <include name="*.egg"/>
+    <include name="*.ane"/>
+    <include name="*.jar"/>
+  </patternset>
+  <patternset id="compiler.resources">
+    <exclude name="**/?*.java"/>
+    <exclude name="**/?*.form"/>
+    <exclude name="**/?*.class"/>
+    <exclude name="**/?*.groovy"/>
+    <exclude name="**/?*.scala"/>
+    <exclude name="**/?*.flex"/>
+    <exclude name="**/?*.kt"/>
+    <exclude name="**/?*.clj"/>
+    <exclude name="**/?*.aj"/>
+  </patternset>
+  
+  <!-- JDK definitions -->
+  
+  <property name="jdk.bin.1.8" value="${jdk.home.1.8}/bin"/>
+  <path id="jdk.classpath.1.8">
+    <fileset dir="${jdk.home.1.8}">
+      <include name="../java-1.8.0-openjdk-amd64/jre/lib/charsets.jar"/>
+      <include name="../java-1.8.0-openjdk-amd64/jre/lib/ext/cldrdata.jar"/>
+      <include name="../java-1.8.0-openjdk-amd64/jre/lib/ext/dnsns.jar"/>
+      <include name="../java-1.8.0-openjdk-amd64/jre/lib/ext/icedtea-sound.jar"/>
+      <include name="../java-1.8.0-openjdk-amd64/jre/lib/ext/jaccess.jar"/>
+      <include name="../java-1.8.0-openjdk-amd64/jre/lib/ext/localedata.jar"/>
+      <include name="../java-1.8.0-openjdk-amd64/jre/lib/ext/nashorn.jar"/>
+      <include name="../java-1.8.0-openjdk-amd64/jre/lib/ext/sunec.jar"/>
+      <include name="../java-1.8.0-openjdk-amd64/jre/lib/ext/sunjce_provider.jar"/>
+      <include name="../java-1.8.0-openjdk-amd64/jre/lib/ext/sunpkcs11.jar"/>
+      <include name="../java-1.8.0-openjdk-amd64/jre/lib/ext/zipfs.jar"/>
+      <include name="../java-1.8.0-openjdk-amd64/jre/lib/jce.jar"/>
+      <include name="../java-1.8.0-openjdk-amd64/jre/lib/jsse.jar"/>
+      <include name="../java-1.8.0-openjdk-amd64/jre/lib/management-agent.jar"/>
+      <include name="../java-1.8.0-openjdk-amd64/jre/lib/resources.jar"/>
+      <include name="../java-1.8.0-openjdk-amd64/jre/lib/rt.jar"/>
+    </fileset>
+  </path>
+  
+  <property name="project.jdk.home" value="${jdk.home.1.8}"/>
+  <property name="project.jdk.bin" value="${jdk.bin.1.8}"/>
+  <property name="project.jdk.classpath" value="jdk.classpath.1.8"/>
+  
+  
+  <!-- Project Libraries -->
+  
+  <path id="library.io.silverspoon:bulldog-board-beagleboneblack:0.2.1.classpath">
+    <pathelement location="${basedir}/lib/bulldog-linux-native-beagleboneblack-0.2.1.so"/>
+    <pathelement location="${basedir}/lib/bulldog-board-beagleboneblack-0.2.1.jar"/>
+    <pathelement location="${basedir}/lib/bulldog-core-0.2.1.jar"/>
+    <pathelement location="${basedir}/lib/bulldog-linux-0.2.1.jar"/>
+    <pathelement location="${basedir}/lib/slf4j-api-1.7.5.jar"/>
+  </path>
+  
+  <path id="library.io.silverspoon:bulldog-devices:0.2.1.classpath">
+    <pathelement location="${basedir}/lib/bulldog-core-0.2.1.jar"/>
+    <pathelement location="${basedir}/lib/bulldog-devices-0.2.1.jar"/>
+    <pathelement location="${basedir}/lib/slf4j-api-1.7.5.jar"/>
+  </path>
+  
+  <path id="library.java-flac-encoder-0.3.7.classpath">
+    <pathelement location="${basedir}/src/libs/apache-httpcomponents-httpcore.jar"/>
+    <pathelement location="${basedir}/src/libs/chatter-bot-api-1.3.2.jar"/>
+    <pathelement location="${basedir}/src/libs/commons-lang3-3.3.jar"/>
+    <pathelement location="${basedir}/src/libs/derby.jar"/>
+    <pathelement location="${basedir}/src/libs/derbyclient.jar"/>
+    <pathelement location="${basedir}/src/libs/geoip-api-1.2.10.jar"/>
+    <pathelement location="${basedir}/src/libs/httpclient-4.0.3.jar"/>
+    <pathelement location="${basedir}/src/libs/jaco-mp3-player-0.9.4.jar"/>
+    <pathelement location="${basedir}/src/libs/java-flac-encoder-0.3.7.jar"/>
+    <pathelement location="${basedir}/src/libs/java-json.jar"/>
+    <pathelement location="${basedir}/src/libs/joda-time-2.1.jar"/>
+    <pathelement location="${basedir}/src/libs/org.apache.commons.io.jar"/>
+    <pathelement location="${basedir}/src/libs/org.apache.commons.logging-1.1.1.jar"/>
+  </path>
+  <!-- Register Custom Compiler Taskdefs -->
+  <property name="javac2.home" value="${idea.home}/lib"/>
+  <path id="javac2.classpath">
+    <pathelement location="${javac2.home}/javac2.jar"/>
+    <pathelement location="${javac2.home}/jdom.jar"/>
+    <pathelement location="${javac2.home}/asm-all.jar"/>
+    <pathelement location="${javac2.home}/jgoodies-forms.jar"/>
+  </path>
+  <target name="register.custom.compilers">
+    <taskdef name="javac2" classname="com.intellij.ant.Javac2" classpathref="javac2.classpath"/>
+    <taskdef name="instrumentIdeaExtensions" classname="com.intellij.ant.InstrumentIdeaExtensions" classpathref="javac2.classpath"/>
+  </target>
+  
+  <!-- Modules -->
+  
+  <import file="${basedir}/module_beaglebone_black_smarthouse.xml"/>
+  
+  <target name="init" description="Build initialization">
+    <!-- Perform any build initialization in this target -->
+  </target>
+  
+  <target name="clean" depends="clean.module.beaglebone_black_smarthouse" description="cleanup all"/>
+  
+  <target name="build.modules" depends="init, clean, compile.module.beaglebone_black_smarthouse" description="build all modules"/>
+  
+  <target name="all" depends="build.modules" description="build all"/>
+</project>

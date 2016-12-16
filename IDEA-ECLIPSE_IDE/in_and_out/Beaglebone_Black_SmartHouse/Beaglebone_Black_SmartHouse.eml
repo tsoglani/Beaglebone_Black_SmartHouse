@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/Beaglebone_Black_SmartHouse"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="bulldog-board-beagleboneblack-0.2.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/bulldog-board-beagleboneblack-0.2.1.jar!/"/>
+	</lib>
+	<lib name="bulldog-board-beagleboneblack-0.2.1-javadoc.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/bulldog-board-beagleboneblack-0.2.1-javadoc.jar!/"/>
+	</lib>
+	<lib name="bulldog-board-beagleboneblack-0.2.1-sources.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/bulldog-board-beagleboneblack-0.2.1-sources.jar!/"/>
+	</lib>
+	<lib name="bulldog-core-0.2.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/bulldog-core-0.2.1.jar!/"/>
+	</lib>
+	<lib name="bulldog-core-0.2.1-javadoc.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/bulldog-core-0.2.1-javadoc.jar!/"/>
+	</lib>
+	<lib name="bulldog-core-0.2.1-sources.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/bulldog-core-0.2.1-sources.jar!/"/>
+	</lib>
+	<lib name="bulldog-devices-0.2.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/bulldog-devices-0.2.1.jar!/"/>
+	</lib>
+	<lib name="bulldog-devices-0.2.1-javadoc.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/bulldog-devices-0.2.1-javadoc.jar!/"/>
+	</lib>
+	<lib name="bulldog-devices-0.2.1-sources.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/bulldog-devices-0.2.1-sources.jar!/"/>
+	</lib>
+	<lib name="bulldog-linux-0.2.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/bulldog-linux-0.2.1.jar!/"/>
+	</lib>
+	<lib name="slf4j-api-1.7.5.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.5.jar!/"/>
+	</lib>
+	<lib name="slf4j-simple-1.7.5.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/slf4j-simple-1.7.5.jar!/"/>
+	</lib>
+	<lib name="apache-httpcomponents-httpcore.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/src/libs/apache-httpcomponents-httpcore.jar!/"/>
+	</lib>
+	<lib name="chatter-bot-api-1.3.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/src/libs/chatter-bot-api-1.3.2.jar!/"/>
+	</lib>
+	<lib name="commons-lang3-3.3.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/src/libs/commons-lang3-3.3.jar!/"/>
+	</lib>
+	<lib name="derby.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/src/libs/derby.jar!/"/>
+	</lib>
+	<lib name="derbyclient.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/src/libs/derbyclient.jar!/"/>
+	</lib>
+	<lib name="geoip-api-1.2.10.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/src/libs/geoip-api-1.2.10.jar!/"/>
+	</lib>
+	<lib name="httpclient-4.0.3.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/src/libs/httpclient-4.0.3.jar!/"/>
+	</lib>
+	<lib name="jaco-mp3-player-0.9.4.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/src/libs/jaco-mp3-player-0.9.4.jar!/"/>
+	</lib>
+	<lib name="java-flac-encoder-0.3.7.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/src/libs/java-flac-encoder-0.3.7.jar!/"/>
+	</lib>
+	<lib name="java-json.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/src/libs/java-json.jar!/"/>
+	</lib>
+	<lib name="joda-time-2.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/src/libs/joda-time-2.1.jar!/"/>
+	</lib>
+	<lib name="org.apache.commons.io.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/src/libs/org.apache.commons.io.jar!/"/>
+	</lib>
+	<lib name="org.apache.commons.logging-1.1.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/src/libs/org.apache.commons.logging-1.1.1.jar!/"/>
+	</lib>
+	<levels>
+		<level name="libs1" value="project"/>
+		<level name="libs" value="project"/>
+		<level name="lib" value="project"/>
+	</levels>
+</component>

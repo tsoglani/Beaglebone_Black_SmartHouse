@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="lib">
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/lib/bulldog-core-0.2.1-javadoc.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/lib/bulldog-devices-0.2.1-javadoc.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/lib/bulldog-core-0.2.1-sources.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/lib/bulldog-devices-0.2.1-sources.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/lib/bulldog-board-beagleboneblack-0.2.1-sources.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/lib/bulldog-board-beagleboneblack-0.2.1.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/lib/slf4j-simple-1.7.5.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/lib/bulldog-devices-0.2.1.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/lib/bulldog-core-0.2.1.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/lib/bulldog-board-beagleboneblack-0.2.1-javadoc.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/lib/bulldog-linux-0.2.1.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/lib/slf4j-api-1.7.5.jar" />
+  </library>
+  <library name="libs">
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/out/production/Beaglebone_Black_SmartHouse/libs/org.apache.commons.logging-1.1.1.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/out/production/Beaglebone_Black_SmartHouse/libs/jaco-mp3-player-0.9.4.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/out/production/Beaglebone_Black_SmartHouse/libs/httpclient-4.0.3.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/out/production/Beaglebone_Black_SmartHouse/libs/derbyclient.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/out/production/Beaglebone_Black_SmartHouse/libs/java-flac-encoder-0.3.7.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/out/production/Beaglebone_Black_SmartHouse/libs/java-json.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/out/production/Beaglebone_Black_SmartHouse/libs/chatter-bot-api-1.3.2.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/out/production/Beaglebone_Black_SmartHouse/libs/apache-httpcomponents-httpcore.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/out/production/Beaglebone_Black_SmartHouse/libs/org.apache.commons.io.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/out/production/Beaglebone_Black_SmartHouse/libs/joda-time-2.1.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/out/production/Beaglebone_Black_SmartHouse/libs/commons-lang3-3.3.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/out/production/Beaglebone_Black_SmartHouse/libs/geoip-api-1.2.10.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/out/production/Beaglebone_Black_SmartHouse/libs/derby.jar" />
+  </library>
+  <library name="libs1">
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/src/libs/geoip-api-1.2.10.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/src/libs/derbyclient.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/src/libs/org.apache.commons.io.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/src/libs/java-flac-encoder-0.3.7.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/src/libs/jaco-mp3-player-0.9.4.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/src/libs/joda-time-2.1.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/src/libs/org.apache.commons.logging-1.1.1.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/src/libs/apache-httpcomponents-httpcore.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/src/libs/derby.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/src/libs/httpclient-4.0.3.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/src/libs/chatter-bot-api-1.3.2.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/src/libs/java-json.jar" />
+    <archive path="/media/tsoglani/tsoglani/github/Beaglebone_Black_SmartHouse/IDEA-ECLIPSE_IDE/in_and_out/Beaglebone_Black_SmartHouse/src/libs/commons-lang3-3.3.jar" />
+  </library>
+</eclipse-userlibraries>
+

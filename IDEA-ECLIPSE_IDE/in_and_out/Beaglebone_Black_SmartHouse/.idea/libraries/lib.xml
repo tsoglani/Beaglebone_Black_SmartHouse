@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/bulldog-core-0.2.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bulldog-devices-0.2.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bulldog-core-0.2.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bulldog-devices-0.2.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bulldog-board-beagleboneblack-0.2.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bulldog-board-beagleboneblack-0.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-simple-1.7.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bulldog-devices-0.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bulldog-core-0.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bulldog-board-beagleboneblack-0.2.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bulldog-linux-0.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
